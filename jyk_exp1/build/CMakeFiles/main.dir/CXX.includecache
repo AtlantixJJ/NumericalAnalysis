@@ -1,0 +1,62 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/equation/Main/Tsinghua/2017-2/Numerical Analysis/lab/1/1_2/interpolation.cpp
+interpolation.h
+/Users/equation/Main/Tsinghua/2017-2/Numerical Analysis/lab/1/1_2/interpolation.h
+lagrangeinterpolation.h
+/Users/equation/Main/Tsinghua/2017-2/Numerical Analysis/lab/1/1_2/lagrangeinterpolation.h
+splineinterpolation.h
+/Users/equation/Main/Tsinghua/2017-2/Numerical Analysis/lab/1/1_2/splineinterpolation.h
+cmath
+-
+string
+-
+
+/Users/equation/Main/Tsinghua/2017-2/Numerical Analysis/lab/1/1_2/interpolation.h
+vector
+-
+
+/Users/equation/Main/Tsinghua/2017-2/Numerical Analysis/lab/1/1_2/lagrangeinterpolation.cpp
+lagrangeinterpolation.h
+/Users/equation/Main/Tsinghua/2017-2/Numerical Analysis/lab/1/1_2/lagrangeinterpolation.h
+cmath
+-
+cstdio
+-
+string
+-
+
+/Users/equation/Main/Tsinghua/2017-2/Numerical Analysis/lab/1/1_2/lagrangeinterpolation.h
+interpolation.h
+/Users/equation/Main/Tsinghua/2017-2/Numerical Analysis/lab/1/1_2/interpolation.h
+
+/Users/equation/Main/Tsinghua/2017-2/Numerical Analysis/lab/1/1_2/main.cpp
+interpolation.h
+/Users/equation/Main/Tsinghua/2017-2/Numerical Analysis/lab/1/1_2/interpolation.h
+splineinterpolation.h
+/Users/equation/Main/Tsinghua/2017-2/Numerical Analysis/lab/1/1_2/splineinterpolation.h
+cmath
+-
+cstdio
+-
+
+/Users/equation/Main/Tsinghua/2017-2/Numerical Analysis/lab/1/1_2/splineinterpolation.cpp
+splineinterpolation.h
+/Users/equation/Main/Tsinghua/2017-2/Numerical Analysis/lab/1/1_2/splineinterpolation.h
+cmath
+-
+cstdio
+-
+string
+-
+
+/Users/equation/Main/Tsinghua/2017-2/Numerical Analysis/lab/1/1_2/splineinterpolation.h
+interpolation.h
+/Users/equation/Main/Tsinghua/2017-2/Numerical Analysis/lab/1/1_2/interpolation.h
+

@@ -1,0 +1,3 @@
+/Users/equation/Main/Tsinghua/2017-2/Numerical Analysis/lab/1/1_2/build/CMakeFiles/rebuild_cache.dir
+/Users/equation/Main/Tsinghua/2017-2/Numerical Analysis/lab/1/1_2/build/CMakeFiles/edit_cache.dir
+/Users/equation/Main/Tsinghua/2017-2/Numerical Analysis/lab/1/1_2/build/CMakeFiles/main.dir
