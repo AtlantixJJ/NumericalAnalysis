@@ -71,10 +71,19 @@ void output_log(int n, int iter, double maxi, FILE *log_file) {
     fprintf(log_file, "\n");
 }
 
+void print_log(int n, int iter, double maxi) {
+    printf("|Iter %d\t|Maximum %.10lf\t", iter, maxi);
+    int i;
+    for(i = 0; i < n; i ++)
+        printf("|%.10lf\t", vec_v[i]);
+    printf("|\n");
+}
+
 void power_vector(int n, FILE *log_file) {
     double maxi_v = 1.0, last_maxi = 0xffffff;
     int iter = 0;
     while(true) {
+        print_log(n, iter, maxi_v);
         output_log(n, iter, maxi_v, log_file);
         // multiply A and v to get new v
         matrix_vector_v(n);
@@ -89,6 +98,7 @@ void power_vector(int n, FILE *log_file) {
         last_maxi = maxi_v;
         iter += 1;
     }
+    print_log(n, iter, maxi_v);
     output_log(n, iter, maxi_v, log_file);
 }
 
@@ -105,7 +115,12 @@ int main() {
 
     // problem2
     n = read_matrix_from_file("data/mat2.txt");
+    FILE *log2 = fopen("data/log2.txt", "w");
+    fprintf(log2, "%d\n", n);
     print_matrix(n);
+    init_vector(n);
+    power_vector(n, log2);
+    fclose(log2);
 
 
     return 0;
